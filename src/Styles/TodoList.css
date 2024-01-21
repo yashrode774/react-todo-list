@@ -1,0 +1,39 @@
+/* Add some basic styling to the todo list container */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style each todo item */
+li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add some hover effect on todo items */
+li:hover {
+  background-color: #e0e0e0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.add-item-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
